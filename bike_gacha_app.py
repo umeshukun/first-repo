@@ -133,7 +133,7 @@ with tab1:
             """,
                 unsafe_allow_html=True,
             )
-            st.image(drawn_bike["img"], use_column_width=True)
+            st.image(drawn_bike["img"], use_container_width=True)
 
 # ==================== TAB 2: ガレージ画面 ====================
 with tab2:
@@ -154,7 +154,7 @@ with tab2:
         col_g1, col_g2 = st.columns(2)
 
         with col_g1:
-            st.image(selected_bike["img"], use_column_width=True)
+            st.image(selected_bike["img"], use_container_width=True)
 
         with col_g2:
             st.write(f"### {selected_bike['name']}")
