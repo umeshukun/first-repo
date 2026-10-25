@@ -109,7 +109,7 @@ with tab1:
 
             # 重み付け抽選（SSR:15%, SR:35%, R:50%）
             drawn_bike = random.choices(
-                BIKE_DATABASE, weights=[10, 15, 35, 40], k=1
+                BIKE_DATABASE, weights=[5, 10, 35, 50], k=1
             )[0].copy()
 
             # ガレージに追加
